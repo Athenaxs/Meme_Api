@@ -7,7 +7,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-meme_subreddits = ['memes', 'dankmemes', 'meirl', 'animememes', 'dankmeme', 'DarkHumorAndMemes']
+meme_subreddits = ['memes', 'dankmemes', 'meirl', 'animememes', 'dankmeme', 'DarkHumorAndMemes', 'deepfriedmemes', 'torridmemes', 'okbuddyretard', 'MemeEconomy', 'PrequelMemes']
 
 
 @app.route('/')
